@@ -31,8 +31,3 @@ let quotes = [{quote: "In war, truth is the first casualty.", author: "Aeschylus
 let i = Math.floor(Math.random()*31);
 console.log(`${quotes[i].quote}`);
 console.log('-',quotes[i].author);
-
-/*for(let i=0; i<quotes.length; i++){
-    console.log(`${i+1}. ${quotes[i].quote}`);
-    console.log('  ','-', quotes[i].author);
-}*/
